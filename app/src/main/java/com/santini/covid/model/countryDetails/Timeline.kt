@@ -1,4 +1,4 @@
-package com.santini.covid.model.CountryDetails
+package com.santini.covid.model.countryDetails
 
 
 import com.google.gson.annotations.SerializedName

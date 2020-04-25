@@ -3,7 +3,7 @@ package com.santini.covid.model.Countries
 
 import com.google.gson.annotations.SerializedName
 
-data class Countries(
+data class CountriesDataResponse(
     @SerializedName("_cacheHit")
     val cacheHit: Boolean,
     @SerializedName("data")
