@@ -7,5 +7,5 @@ data class countriesDetails(
     @SerializedName("_cacheHit")
     val cacheHit: Boolean,
     @SerializedName("data")
-    val `data`: Data
+    val data: Data
 )

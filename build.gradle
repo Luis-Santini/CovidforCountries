@@ -5,7 +5,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-        
+
     }
     dependencies {
 
@@ -46,5 +46,6 @@ ext{
     //Koin
     koin_version = "2.0.1"
 
-
+// Room
+    room_version = "2.2.3"
 }

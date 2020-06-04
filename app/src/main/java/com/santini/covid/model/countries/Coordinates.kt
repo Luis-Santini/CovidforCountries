@@ -1,11 +1,11 @@
-package com.santini.covid.model.Countries
+package com.santini.covid.model.countries
 
 
 import com.google.gson.annotations.SerializedName
 
 data class Coordinates(
     @SerializedName("latitude")
-    val latitude: Int,
+    val latitude: Double,
     @SerializedName("longitude")
-    val longitude: Int
+    val longitude: Double
 )

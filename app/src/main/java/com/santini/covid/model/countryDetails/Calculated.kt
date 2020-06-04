@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 
 data class Calculated(
     @SerializedName("cases_per_million_population")
-    val casesPerMillionPopulation: Int,
+    val casesPerMillionPopulation: Double,
     @SerializedName("death_rate")
     val deathRate: Double,
     @SerializedName("recovered_vs_death_ratio")
